@@ -1,0 +1,66 @@
+
+.figure-news {
+  margin: 3em;
+  padding-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(48, 48, 48);
+  border-color: red;
+}
+
+figure img {
+  width: 100%;
+}
+
+.horizontal-line-box {
+  color: $white;
+  justify-content: center;
+  background-color: rgb(48, 48, 48);
+  height: 30px;
+  width: 150px;
+  margin: 3em;
+  margin-bottom: -3em;
+  display: flex;
+}
+// newsletter section
+.newsletter {
+  height: $height1;
+  background-color: $article-hero-color;
+}
+
+// news section Bea szenfeld
+.news-heading {
+  display: flex;
+  height: 400px;
+  background-color: $article-hero-color;
+}
+
+.news-heading-main-box {
+  height: 80px;
+  width: 1000px;
+  margin-top: 150px;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+  .container-news {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .container-figure-news {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .figure-news {
+    width: auto;
+    flex: 1 20em;
+  }
+}
